@@ -16,7 +16,7 @@ CHA: Charisma -> Measure of the force of personality of a given creature
 
 ## Determining number of clusters
 Using intertia, the number of clusters for grouping is determined to be 5 by identifying the elbow in the graph
-
+![K Means Elbow Graph](https://github.com/MatthewPeplinski/DND-Monster-Clustering/blob/main/kmeans_inertia_elbow.png)
 
 ## Final output
 After the 5 clusters are determined, the monsters are grouped, resulting in groups which look like the following:
