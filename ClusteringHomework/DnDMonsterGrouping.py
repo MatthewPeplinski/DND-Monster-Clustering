@@ -52,8 +52,13 @@ kmeans.fit(X)
 print(kmeans.inertia_)
 print(kmeans.cluster_centers_ *std)
 
-# Display the 5 clusters TODO clean up display to be more readable
+# Display the 5 clusters
 for i in range(5):
-    print(f"Average Stats for cluster {i}: {kmeans.cluster_centers_[i] *std}")
-    for name in monsterNames[kmeans.labels_ == i]:
-        print(name)
+    print(f"Average Stats for cluster {i}:")
+    for label, value in zip(stat_labels, kmeans.cluster_centers_[i] * std):
+        print(f"  {label}: {value:.2f}")
+    print()
+#     print(f"Average Stats for cluster {i}: {kmeans.cluster_centers_[i] *std}")
+#     # checking what monsters are in each cluster
+#     for name in monsterNames[kmeans.labels_ == i]:
+#         print(name)
