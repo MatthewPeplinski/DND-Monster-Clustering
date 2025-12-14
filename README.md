@@ -5,14 +5,14 @@ This program uses dnd monster stat blocks to determine the number of groups dnd 
 Creatures are given statistics which correspond to their state of being. These are what I am using to group monsters by, and are listed as follows:
 
 CR: Challenge rating -> Expected level that a DnD party would be at to fight this monster
-AC: Armor Class -> The number that needs to be rolled to hit the creature in combat
-HP: Hit Points -> Amount of damage that a creature can take before dying
-STR: Strength -> How much physical ability a creature has
-DEX: Dexterity -> How nimble a creature is
-CON: Constitution -> Strenth of vitality, normally HP is derrived based on level and something to do with this stat
-WIS: Wisdom -> Innate knowledge or understanding of the world
-INT: Intelegence -> Measure of how smart a creature is, sometimes construed as cleverness
-CHA: Charisma -> Measure of the force of personality of a given creature
+- AC: Armor Class -> The number that needs to be rolled to hit the creature in combat
+- HP: Hit Points -> Amount of damage that a creature can take before dying
+- STR: Strength -> How much physical ability a creature has
+- DEX: Dexterity -> How nimble a creature is
+- CON: Constitution -> Strenth of vitality, normally HP is derrived based on level and something to do with this stat
+- WIS: Wisdom -> Innate knowledge or understanding of the world
+- INT: Intelegence -> Measure of how smart a creature is, sometimes construed as cleverness
+- CHA: Charisma -> Measure of the force of personality of a given creature
 
 ## Determining number of clusters
 Using intertia, the number of clusters for grouping is determined to be 5 by subjectively identifying the elbow in the graph:
