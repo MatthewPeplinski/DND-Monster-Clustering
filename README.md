@@ -20,7 +20,7 @@ Using intertia, the number of clusters for grouping is determined to be 5 by sub
 ![K Means Elbow Graph](https://github.com/MatthewPeplinski/DND-Monster-Clustering/blob/main/kmeans_intertia_elbow.png)
 
 ## Final output
-After the 5 clusters are determined, the monsters are grouped, resulting in groups which look like the following:
+After the 5 clusters are determined, the monsters are grouped, resulting in groups which look like the following (note that these clusters are in no particular order):
 
 Average Stats for cluster 0:
 - CR: 11.57
