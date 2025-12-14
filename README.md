@@ -4,7 +4,7 @@ This program uses dnd monster stat blocks to determine the number of groups dnd 
 ## Stats
 Creatures are given statistics which correspond to their state of being. These are what I am using to group monsters by, and are listed as follows:
 
-CR: Challenge rating -> Expected level that a DnD party would be at to fight this monster
+- CR: Challenge rating -> Expected level that a DnD party would be at to fight this monster
 - AC: Armor Class -> The number that needs to be rolled to hit the creature in combat
 - HP: Hit Points -> Amount of damage that a creature can take before dying
 - STR: Strength -> How much physical ability a creature has
